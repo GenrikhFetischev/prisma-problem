@@ -1,0 +1,22 @@
+{
+  "name": "prisma-problem",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=17.9.0"
+  },
+  "scripts": {
+    "try": "prisma generate && prisma db push && tsc && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "*",
+    "prisma": "3.14.0",
+    "typescript": "*",
+    "@prisma/client": "3.14.0"
+  }
+}
